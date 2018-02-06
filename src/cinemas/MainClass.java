@@ -23,6 +23,7 @@ public class MainClass {
 		
 		
 		System.out.println(sc.convert());
+		System.out.println(sc.convertSingle(4));
 		
 		
 	}

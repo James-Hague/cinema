@@ -30,4 +30,16 @@ public class ServiceClass {
 
 		return json;
 	}
+	public String convertSingle(int movieNumber) {
+
+		String json = null;
+		try {
+			json = new ObjectMapper().writeValueAsString(hMap.get(movieNumber));
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return json;
+	}
 }
