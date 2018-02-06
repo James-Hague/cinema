@@ -21,9 +21,9 @@ public class MainClass {
 		sc.addMethod(5, Howtotrainyourdragon);
 		
 		
-		System.out.println(sc.returnMethod(2));
 		
-		
+		System.out.println(sc.convert());
+		System.out.println(sc.convertSingle(4));
 		
 		
 	}
